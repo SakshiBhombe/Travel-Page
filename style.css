@@ -4,6 +4,16 @@
   background-position: center;
   background-size: cover;
 }
+*::selection{
+  background:#cdc6cc;
+  color:rgb(255, 255, 255);
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
 
 #hero-content {
   width: 900px;
@@ -49,7 +59,8 @@
 }
 
 #hero-content a:hover {
-  background-color: rgb(255, 238, 0);
+  background-color: rgb(229, 142, 197);
+  transform: scale(1.2px);
 }
 
 #highlights {
